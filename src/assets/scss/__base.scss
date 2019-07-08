@@ -1,0 +1,37 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#app {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70px;
+    img {
+        width: 100px;
+        height: 60px;
+    }
+    a {
+      font-weight: 300;
+      color: $preto;
+      text-decoration: none;
+      padding: 0px 25px;
+      border-right: 2px solid $cinza;
+      height: 60px;
+      line-height: 60px;
+      &:hover{
+        background-color: $cinza;
+        color: $azul;
+      }
+    }
+}

@@ -1,0 +1,90 @@
+
+@import '../../assets/scss/_variavel';
+
+.footer{
+    display: block;
+    background: $branco;
+    height: 250px;
+
+    .footer-conteiner{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 30px;
+        padding: 20px 50px;
+
+        .conteudo{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin: 10px 30px;
+
+            h2{
+                font-weight: bold;
+                margin-bottom: 30px; 
+            }
+
+            .logo{
+                width: 70px;
+                height: 70px;
+                img{
+                    width: 100px;
+                    height: 60px;
+                }
+            }
+
+            p{
+                margin-bottom: 5px;
+            }
+            .lista-conteudo,
+            .categoria{
+                list-style: none;
+                display: flex;
+
+                .lista-item{
+                    margin: 10px;
+                    a{
+                        border: 2px solid $azul;
+                        border-radius: 50px;
+                        height: 40px;
+                        width: 40px;
+                        padding: 10px;
+                        text-align: center;
+                        color: $branco;
+                        background: $azul;
+
+                        &:hover{
+                            transform: translateY(-2px);
+                            box-shadow: 5px 10px 20px rgba(0,0,0,.3);
+                        }
+                    }
+                }
+
+                .categoria-item{
+                    margin: 0 5px;
+                    a{
+                        text-decoration: none;
+                        cursor: pointer;
+                        color: $preto;
+                        &:hover{
+                            color: $azul;
+                        }
+                    }
+                }
+            }
+        }
+
+    }    
+}
+
+// <div class="conteudo">
+// <h2>CATAGORIES</h2>
+// <ul class="categoria">
+//     <li class="categoria-item">BEAUTY</li>
+//     <li class="categoria-item">HEALTH </li>
+//     <li class="categoria-item">SPORT</li>
+//     <li class="categoria-item">DESIGN</li>
+//     <li class="categoria-item">TRAVEL</li>
+// </ul>
+// </div>
