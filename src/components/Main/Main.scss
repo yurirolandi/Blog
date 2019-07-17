@@ -176,6 +176,7 @@
         .card2{
             flex-direction: column;
             max-height: 900px;
+            flex-wrap: wrap;
             .logo{
                 margin: 0;
                 img{
@@ -199,11 +200,11 @@
                    align-items: center;
                    margin: 0 10px;
                  .avatar{
-                     display: block;
+                     display: flex;
                      justify-content: center;
                      align-items: center;
-                     width: 70px;
-                     height: 70px;
+                     width: 80px;
+                     height: 65px;
                      overflow: hidden;
                      z-index: 10;
                      border-radius: 50%;
@@ -251,6 +252,11 @@
             flex-direction: column;
             max-height: 800px;
             width: 95%;
+
+            .avatar{
+                width: 80px;
+                height: 65px;
+            }
             .logo{
                 margin: 0;
                 img{

@@ -12,13 +12,13 @@
         flex-direction: row;
         align-items: center;
         margin: 0 30px;
-        padding: 20px 50px;
+        padding: 20px;
 
         .conteudo{
             display: flex;
             flex-direction: column;
             align-content: center;
-            margin: 10px 30px;
+            margin-left: 20px;
 
             h2{
                 font-weight: bold;
@@ -41,7 +41,8 @@
             .categoria{
                 list-style: none;
                 display: flex;
-
+                flex-wrap: wrap;
+                
                 .lista-item{
                     margin: 10px;
                     a{
@@ -78,13 +79,3 @@
     }    
 }
 
-// <div class="conteudo">
-// <h2>CATAGORIES</h2>
-// <ul class="categoria">
-//     <li class="categoria-item">BEAUTY</li>
-//     <li class="categoria-item">HEALTH </li>
-//     <li class="categoria-item">SPORT</li>
-//     <li class="categoria-item">DESIGN</li>
-//     <li class="categoria-item">TRAVEL</li>
-// </ul>
-// </div>

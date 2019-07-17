@@ -201,13 +201,13 @@
         <div class="card__footer">
           <ul class="card__content">
             <li class="card__item">
-              <font-awesome-icon class="icone" icon="heart" />57
+              <font-awesome-icon class="icone" icon="heart" /> 57
             </li>
             <li class="card__item">
-              <font-awesome-icon class="icone" icon="comment" />6
+              <font-awesome-icon class="icone" icon="comment" /> 6
             </li>
             <li class="card__item">
-              <font-awesome-icon class="icone" icon="eye" />200
+              <font-awesome-icon class="icone" icon="eye" /> 200
             </li>
           </ul>
         </div>

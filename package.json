@@ -29,7 +29,8 @@
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-fontawesome": "^0.2.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "lodash": ">=4.17.13"
   },
   "eslintConfig": {
     "root": true,
